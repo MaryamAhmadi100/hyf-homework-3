@@ -60,6 +60,22 @@ p {
 .fa-solid {
   padding: 10px;
 }
+}
+.edu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* line-height: 32px; */
+}
+
+.p-body {
+  font-weight:100;
+}
+
+.p-profile {
+margin-left: 36px;
+font-weight: 100;
+}
 
 footer {
   background-color: rgb(27, 154, 144);
@@ -88,19 +104,4 @@ footer p {
   .container {
     width: 700px;
   }
-}
-.edu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* line-height: 32px; */
-}
 
-.p-body {
-  font-weight:100;
-}
-
-.p-profile {
-margin-left: 36px;
-font-weight: 100;
-}
