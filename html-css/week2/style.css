@@ -51,22 +51,33 @@ img {
 }
 
 .par1 {
-  text-align: justify;
+  margin-left: -50px;
   padding-right: 100px;
 }
 
 #left-title {
   font-weight: bolder;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 #right-title {
   font-weight: bolder;
-  font-size: x-large;
-  margin-top: 0%;
+  font-size: xx-large;
+  margin-top: -5%;
+  margin-left: 5px;
 }
 
-.par2 {
-  text-align: justify;
-  margin-right: 50px;
+.paragraph1 {
+  padding-bottom: 32px;
+  margin-right: 100px;
+}
+
+.paragraph2 {
+  padding-bottom: 32px;
+  margin-right: 100px;
+}
+
+.paragraph3 {
+  padding-bottom: 32px;
+  margin-right: 100px;
 }
