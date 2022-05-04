@@ -1,16 +1,21 @@
 body {
-  margin: 50px;
+  margin: 0;
 }
 
 .titles {
   padding: 20px;
   background-color: rgb(246, 242, 242);
+  margin: 0px;
 }
 
+h1 {
+  margin-left: 50px;
+}
 h3 {
   font-weight: normal;
   padding: 10px;
   font-size: medium;
+  margin-left: 50px;
 }
 
 h2 {
@@ -24,11 +29,17 @@ h2 {
 }
 
 .navbar-sections {
-  padding-top: 20px;
+  padding-bottom: 0;
   display: flex;
   place-items: 10px;
+  margin: 50px;
 }
 
 #bold-heading {
   font-weight: 100;
+}
+
+img {
+  height: 60vh;
+  width: 100vw;
 }
