@@ -42,7 +42,7 @@ h2 {
 img {
   height: 40vh;
   width: 100vw;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .text {
@@ -52,7 +52,7 @@ img {
 
 .par1 {
   text-align: justify;
-  padding-right: 150px;
+  padding-right: 100px;
 }
 
 #left-title {
@@ -61,5 +61,12 @@ img {
 }
 
 #right-title {
-    
+  font-weight: bolder;
+  font-size: x-large;
+  margin-top: 0%;
+}
+
+.par2 {
+  text-align: justify;
+  margin-right: 50px;
 }
