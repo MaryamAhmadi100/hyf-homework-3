@@ -42,6 +42,7 @@ h2 {
 img {
   height: 40vh;
   width: 100vw;
+  margin-bottom: 30px;
 }
 
 .text {
@@ -57,5 +58,8 @@ img {
 #left-title {
   font-weight: bolder;
   margin-left: 150px;
-  font-stretch: extra-expanded;
+}
+
+#right-title {
+    
 }
