@@ -187,7 +187,7 @@ p {
   .footer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
   }
   .text1 {
     width: 100vw;
@@ -202,7 +202,29 @@ p {
   .text4 {
     width: 100%;
   }
+  /* hiding the navigation  */
   .footer .list3 {
     display: none;
+  }
+
+  /* adjusting fonts */
+  #main-heading {
+    font-size: 3vw;
+  }
+  #sub-heading {
+    font-size: 2.25vw;
+  }
+  h2 {
+    font-size: 2.25vw;
+  }
+  p {
+    font-size: 2vw;
+  }
+
+  .list1 {
+    padding-left: 10%;
+  }
+  .list2 {
+    padding-left: 5%;
   }
 }
