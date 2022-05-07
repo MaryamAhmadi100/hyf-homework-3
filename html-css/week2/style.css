@@ -27,6 +27,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 1% 6% 15% 10%;
+  padding-bottom: 20%;
 }
 
 #main-heading {
