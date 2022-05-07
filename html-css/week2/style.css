@@ -54,6 +54,17 @@ h2 {
   font-size: 24px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+#dented {
+  margin-left: 10%;
+}
 #about {
   font-weight: normal;
   color: transparent;
@@ -117,31 +128,34 @@ h2 {
 .footer {
   display: flex;
   flex-direction: row;
-  background-color: blueviolet;
-  height: 70vh;
+  background-color: rgb(104, 43, 226);
+  height: 80vh;
   color: white;
 }
 
 .map {
   display: flex;
   flex-direction: column;
-  margin: 2% 8%;
+  margin: 2% 5% 2% 10%;
 }
 
+.map-items {
+  line-height: 1rem;
+}
 .list1 {
   display: flex;
   flex-direction: column;
-  margin: 2% 8%;
+  margin: 2% 4% 2% 1%;
 }
 
 .list2 {
   display: flex;
   flex-direction: column;
-  margin: 2% 7%;
+  margin: 2% 6%;
 }
 
 .list3 {
   display: flex;
   flex-direction: column;
-  margin: 2% 8%;
+  margin: 2% 6%;
 }
