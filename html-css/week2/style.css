@@ -1,6 +1,33 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1% 6% 10% 10%;
+}
+
+#main-heading {
+  font-size: 46px;
+  font-weight: 900;
+}
+
+#sub-heading {
+  font-weight: normal;
+  font-size: 24px;
+  color: transparent;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  margin-top: -1%;
+}
+#text1-heading {
+  font-size: 24px;
+}
+p {
+  text-align: left;
+  width: 70%;
 }
 
 .grey-box {
@@ -18,11 +45,13 @@ body {
 h2 {
   font-weight: bold;
   padding: 10px;
-  font-size: medium;
+  font-size: 24px;
 }
 
 #about {
   font-weight: normal;
+  color: transparent;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-sections {
@@ -37,84 +66,11 @@ h2 {
 }
 
 .banner {
-  height: 40vh;
+  height: 60vh;
   width: 100vw;
   margin-bottom: 15px;
 }
 
-/* .text {
-  margin-left: 150px;
-  display: flex;
-} */
-
-/* .par1 {
-  margin-left: -50px;
-  padding-right: 100px;
-}
-
-#left-title {
-  font-weight: bolder;
-  margin-left: 100px;
-} */
-
-/* #right-title {
-  font-weight: bolder;
-  font-size: xx-large;
-  margin-top: -5%;
-  margin-left: 5px;
-}
-
-.paragraph1 {
-  padding-bottom: 32px;
-  margin-right: 100px;
-} */
-
-/* .paragraph2 {
-  padding-bottom: 32px;
-  margin-right: 100px;
-}
-
-.paragraph3 {
-  padding-bottom: 32px;
-  margin-right: 100px;
-} */
-
-/* .info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: column;
-} */
-
-/* .gallery {
-  margin-left: 150px;
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  margin-right: 320px;
-} */
-
-/* h4 {
-  font-weight: bold;
-  font-size: medium;
-  margin-left: 100px;
-  margin-bottom: 5px;
-}
-
-.logo-heading {
-  font-weight: bolder;
-  font-size: xx-large;
-  margin-top: 0%;
-  margin-left: 700px;
-  padding-right: 0%;
-} */
-
-.main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 1% 6% 10% 10%;
-}
 
 .text1 {
   display: flex;
@@ -184,3 +140,74 @@ h2 {
   flex-direction: column;
   margin: 2% 8%;
 }
+
+
+/* .text {
+  margin-left: 150px;
+  display: flex;
+} */
+
+/* .par1 {
+  margin-left: -50px;
+  padding-right: 100px;
+}
+
+#left-title {
+  font-weight: bolder;
+  margin-left: 100px;
+} */
+
+/* #right-title {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: -5%;
+  margin-left: 5px;
+}
+
+.paragraph1 {
+  padding-bottom: 32px;
+  margin-right: 100px;
+} */
+
+/* .paragraph2 {
+  padding-bottom: 32px;
+  margin-right: 100px;
+}
+
+.paragraph3 {
+  padding-bottom: 32px;
+  margin-right: 100px;
+} */
+
+/* .info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+} */
+
+/* .gallery {
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin-right: 320px;
+} */
+
+/* h4 {
+  font-weight: bold;
+  font-size: medium;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+
+.logo-heading {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 0%;
+  margin-left: 700px;
+  padding-right: 0%;
+} */
+
+
+
