@@ -28,10 +28,12 @@ body {
 #text1-body {
   text-align: left;
   width: 70%;
+  text-align: justify;
 }
 
 p {
   font-size: 20px;
+  text-align: justify;
 }
 
 .grey-box {
