@@ -167,7 +167,7 @@ p {
   margin: 2% 6%;
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
   .navbar-sections {
     display: flex;
     flex-direction: column;
@@ -176,7 +176,33 @@ p {
     display: flex;
     flex-direction: column;
   }
-  .icon {
-    grid-template-columns: repeat(2, 1fr);
+  .icons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(2);
+    width: 100vw;
+    height: 150vh;
+    row-gap: 8%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  .text1 {
+    width: 100vw;
+  }
+
+  .text2 {
+    width: 100%;
+  }
+  .text3 {
+    width: 100%;
+  }
+  .text4 {
+    width: 100%;
+  }
+  .footer .list3 {
+    display: none;
   }
 }
