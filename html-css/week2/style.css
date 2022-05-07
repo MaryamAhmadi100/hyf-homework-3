@@ -127,8 +127,8 @@ p {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: repeat(3);
   gap: 6%;
-  margin: 5% 0%;
-  row-gap: 12%;
+  margin: 5% 0% 10% 0%;
+  row-gap: 32%;
 }
 
 .footer {
