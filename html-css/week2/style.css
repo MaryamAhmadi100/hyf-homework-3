@@ -38,8 +38,11 @@ p {
 #sub-heading {
   font-weight: normal;
   font-size: 24px;
+  
+  /* this makes the text look unfocused and hard to see */
   color: transparent;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  
   margin-top: -1%;
 }
 
@@ -76,6 +79,8 @@ p {
 
 #about {
   font-weight: normal;
+  
+  /* You can put a line underneath "about", to instead of making it unfocused */
   color: transparent;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
